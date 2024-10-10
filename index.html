@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Scratch Pad</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+	<div id="scratch">
+		<div class="title">SCRATCHED PLAID</div>
+		<div class="subtitle">WRITE. EDIT. REPEAT.</div>
+	</div>
+</header>
+
+
+<div class="content">
+
+
+
+	<div id="input-central"><!-- INPUT PANELS -->
+	
+
+
+		<div class="input-panel"><!-- EMAIL FORM -->
+			<form>
+				<label for="email-input">
+					<div class="section-header">YOUR EMAIL:</div>
+				</label>
+
+				<input
+					id="email-input"
+					type="email"
+					pattern=".+example\.com"
+					placeholder="your email"	
+				>
+				<div class="input-button">
+					<input class="button" type="submit" value="SUBSCRIBE">
+				</div>
+			</form>
+		</div>
+
+
+
+		<div class="input-panel"><!-- VOLUME SLIDER-->
+			<form>
+				<label for="volume-input">
+					<div class="section-header">VOLUME:</div>
+				</label>
+				<input
+					type="range"
+					name="volume"
+					id="volume-input"
+					min="0"
+					max="100"
+					value="40"
+					step="20"
+				>
+				<div class="input-button">
+					<input class="button" type="submit" value="CONFIRM">
+				</div>
+			</form>
+		</div>
+
+
+
+		<div class="input-panel"><!-- FEEDBACK RADIALS -->
+			<form>
+				<label>
+					<div class="section-header">HOW DO YOU <em>FEEL?</em></div>
+				</label>
+				<div class="radio-row">
+					<input
+						type="radio"
+						name="feedback"
+						id="not-for-me"
+						value="not-for-me"
+					>
+					<label for="not-for-me">not for me</label>
+					<input
+						type="radio"
+						name="feedback"
+						id="ok"
+						value="ok"
+						checked
+					>
+					<label for="ok">it's okay</label>
+					<input
+						type="radio"
+						name="feedback"
+						id="i-like-it"
+						value="i-like-it"
+					>
+					<label for="i-like-it">i like it</label>
+				</div>
+				<div class="input-button">
+					<input class="button" type="submit" value="FEEL">
+					<input class="button" type="button" value="don't feel">
+				</div>
+			</form>
+		</div>
+
+
+
+		<div class="input-panel"><!-- SIZE SELECT -->
+			<form>
+				<label for="size-list">
+					<div class="section-header">SELECT YOUR FIT:</div>
+				</label>
+				<select name="sizes" id="size-list">
+					<option value="">-select a size-</option>
+					<option value="extra-small">extra-small</option>
+					<option value="small">small</option>
+					<option value="medium">medium</option>
+					<option value="large">large</option>
+					<option value="extra-large">extra-large</option>
+				</select>
+				<div class="input-button">
+					<input class="button" type="submit" value="SELECT">
+				</div>
+			</form>
+		</div> 
+	</div>
+
+
+
+	<div id="movie-spotlight"><!-- SPOTLIGHT CARD -->
+		<div class="spotlight-title">
+			ARRIVAL (2016)
+		</div>
+		
+		<div class="spotlight-body">
+			<img class="movie-poster" src="images/arrival.jpg">
+			<div class="movie-synopsis">
+				Linguistics professor Louise Banks (Amy Adams) 
+				leads an elite team of investigators when gigantic 
+				spaceships touch down in 12 locations around the 
+				world. As nations teeter on the verge of global war, 
+				Banks and her crew must race against time to find a 					way to communicate with the extraterrestrial visitors. 
+				Hoping to unravel the mystery, she takes a chance 
+				that could threaten her life and quite possibly all of 
+				mankind.
+			</div>
+		</div>
+	</div>
+	
+
+
+	<div class="section-header"><!-- SHAPES -->
+		SOME SHAPES:
+	</div>
+	<table class="shapes-table">
+		<td><div class="circle"></div></td>
+		<td><div class="oval"></div></td>
+		<td><div class="weirdie"></div></td>
+		<td><div class="square"></div></td>
+		<td>
+			<div class="snowman">
+				<div class="snowman-head">
+					<div class="snowman-face">
+						(   ` o`)
+					</div>
+				</div>
+				<div class="snowman-body"></div>	
+				<div class="snowman-bottom"></div>
+			</div>
+		</td>
+	</table>
+	</div>
+</div>
+
+
+
+</body>
+</html>
